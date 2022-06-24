@@ -60,7 +60,7 @@ insert into employee (id, name, email, birthday) values (48, 'Brandtr', 'bwhanne
 insert into employee (id, name, email, birthday) values (49, 'Jeniffer', 'jsamwayes1c@ucla.edu', '1918-01-23');
 insert into employee (id, name, email, birthday) values (50, 'Hew', 'hleven1d@engadget.com', '1983-09-18');
 
---Sütunların her birine göre diğer sütunları güncelleyecek 5 adet UPDATE işlemi yapalım.
+--Sütunların her birine göre diğer sütunları güncelleyecek 2 adet UPDATE işlemi yapalım.
 
 --1.
 UPDATE employee
@@ -71,7 +71,7 @@ UPDATE employee
 SET email='yy'
 WHERE name='xx';
 
---Sütunların her birine göre ilgili satırı silecek 5 adet DELETE işlemi yapalım.
+--Sütunların her birine göre ilgili satırı silecek 2 adet DELETE işlemi yapalım.
 
 --1.
 DELETE FROM employee
